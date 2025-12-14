@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equação da Reta</title>
+
+    <!-- Caminho relativo correto -->
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+    <h1>Equação da Reta</h1>
+
+    <!-- Caminho relativo correto -->
+    <img src="./img/GeometriaAnalitica.png" alt="Geometria Analítica" class="largura">
+
+    <p>
+        Informe a coordenada do 1º ponto:<br>
+        <input type="number" id="inX1" placeholder="X1">
+        <input type="number" id="inY1" placeholder="Y1">
+    </p>
+
+    <p>
+        Informe a coordenada do 2º ponto:<br>
+        <input type="number" id="inX2" placeholder="X2">
+        <input type="number" id="inY2" placeholder="Y2">
+    </p>
+
+    <p>
+        <input type="button" value="Calcular" id="btCalcular">
+        <input type="button" value="Limpar" id="btLimpar">
+    </p>
+
+    <h3>
+        Coeficiente Angular da Reta:
+        <span id="outAngular"></span>
+    </h3>
+
+    <h3>
+        Equação da Reta:
+        <span id="outEquacao"></span>
+    </h3>
+
+    <h3>
+        Tipo de Reta:
+        <span id="outTipo"></span>
+    </h3>
+
+    <!-- Caminho relativo correto -->
+    <script src="./js/equacaoReta.js"></script>
+</body>
+</html>
